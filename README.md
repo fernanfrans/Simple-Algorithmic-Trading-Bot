@@ -20,7 +20,7 @@ This project implements a **Simple Moving Average (SMA) Crossover Strategy** for
 ## 📊 Strategy Explanation
 The SMA Crossover Strategy works as follows:
 
-1. **Short SMA (Fast)**: A moving average calculated over a **shorter** period (e.g., 10 days).
+1. **Short SMA (Fast)**: A moving average calculated over a **shorter** period (e.g., 20 days).
 2. **Long SMA (Slow)**: A moving average calculated over a **longer** period (e.g., 50 days).
 3. **Buy Signal**: When the **fast SMA crosses above** the slow SMA (Golden Cross).
 4. **Sell Signal**: When the **fast SMA crosses below** the slow SMA (Death Cross).
